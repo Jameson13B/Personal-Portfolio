@@ -136,3 +136,25 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+/* Header Style */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 0;
+  background: transparent;
+}
+header nav a {
+  padding: 10px 5%;
+  margin: 0 3%;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+  border: 3px solid rggb(87, 41, 0);
+  text-align: center;
+}
